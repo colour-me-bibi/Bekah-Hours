@@ -1,0 +1,25 @@
+title: Animal Care Log
+description: Logging animal care hours for a pre-vet student
+baseurl: "" # leave empty for the root site
+url: "https://<your-username>.github.io" # replace with your GitHub Pages URL
+theme: minima
+
+# Build settings
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
+
+# Exclude these files from the build process
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - .gitignore
+
+# Enable Jekyll Asset Pipeline for CSS and JS
+sass:
+  style: compressed
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
